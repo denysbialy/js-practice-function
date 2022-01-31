@@ -12,9 +12,9 @@ console.log(positiveNumber(10))
 
 const minNumber = function(num1, num2){
     if(num1 < num2){
-        return console.log(`Первое число ${num1} меньше второго числа ${num2}`)
+        return `Первое число ${num1} меньше второго числа ${num2}`
     } else{
-        return console.log(`Первое число ${num1} больше второго числа ${num2}`)
+        return `Первое число ${num1} больше второго числа ${num2}`
     }
 }
 minNumber(10, 5);
@@ -27,7 +27,7 @@ const moneyForItem = function(money, item){
     if(money >= item){
         ++result
     }
-    return console.log(Boolean(result))
+    return Boolean(result)
 }
 
 moneyForItem(10, 5)
